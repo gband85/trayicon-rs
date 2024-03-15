@@ -2,8 +2,7 @@ crate
 // ## Example
 // [Open full example with winit here 🢅](https://github.com/Ciantic/trayicon-rs/blob/master/examples/winit/src/main.rs)
 
-#[cfg(target_os = "windows")]
-#[path = "./sys/windows/mod.rs"]
+#[cfg_attr(target_os = "windows", path = "./sys/windows/mod.rs")]
 mod sys;
 
 mod icon;
