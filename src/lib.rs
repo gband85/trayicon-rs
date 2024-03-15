@@ -19,7 +19,7 @@ pub use crate::trayiconbuilder::Error;
 pub use crate::trayiconbuilder::TrayIconBuilder;
 
 // Each OS specific implementation must export following:
-pub(crate) use sys::any::{
+pub(crate) use sys::{
     // MenuBuilder<T> -> Result<MenuSys<T>, Error>
     build_menu,
 
