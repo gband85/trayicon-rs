@@ -1,4 +1,4 @@
-crate
+// crate
 // ## Example
 // [Open full example with winit here 🢅](https://github.com/Ciantic/trayicon-rs/blob/master/examples/winit/src/main.rs)
 
